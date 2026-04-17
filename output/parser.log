@@ -1,0 +1,709 @@
+2026-04-17 09:57:51 - StopGameParser - INFO - Парсер инициализирован
+2026-04-17 09:57:51 - StopGameParser - INFO - Конфигурация: delay=1.0s, timeout=15s, workers=1
+2026-04-17 09:57:51 - StopGameParser - INFO - Парсинг страницы 1
+2026-04-17 09:57:51 - StopGameParser - INFO - https://stopgame.ru/review: 18 статей -> 18 обзоров
+2026-04-17 09:57:51 - StopGameParser - INFO - Всего страниц: 234, начинаем с 2
+2026-04-17 09:57:52 - StopGameParser - INFO - Страница 2/234
+2026-04-17 09:57:52 - StopGameParser - INFO - https://stopgame.ru/review/p2: 18 статей -> 18 обзоров
+2026-04-17 09:57:52 - StopGameParser - INFO - Собрано 18 обзоров, всего 18
+2026-04-17 09:57:53 - StopGameParser - INFO - Страница 3/234
+2026-04-17 09:57:53 - StopGameParser - INFO - https://stopgame.ru/review/p3: 18 статей -> 18 обзоров
+2026-04-17 09:57:53 - StopGameParser - INFO - Собрано 18 обзоров, всего 36
+2026-04-17 09:57:54 - StopGameParser - INFO - Страница 4/234
+2026-04-17 09:57:54 - StopGameParser - INFO - https://stopgame.ru/review/p4: 18 статей -> 18 обзоров
+2026-04-17 09:57:54 - StopGameParser - INFO - Собрано 18 обзоров, всего 54
+2026-04-17 09:57:55 - StopGameParser - INFO - Страница 5/234
+2026-04-17 09:57:55 - StopGameParser - INFO - https://stopgame.ru/review/p5: 18 статей -> 18 обзоров
+2026-04-17 09:57:55 - StopGameParser - INFO - Собрано 18 обзоров, всего 72
+2026-04-17 09:57:56 - StopGameParser - INFO - Страница 6/234
+2026-04-17 09:57:56 - StopGameParser - INFO - https://stopgame.ru/review/p6: 18 статей -> 18 обзоров
+2026-04-17 09:57:56 - StopGameParser - INFO - Собрано 18 обзоров, всего 90
+2026-04-17 09:57:57 - StopGameParser - INFO - Страница 7/234
+2026-04-17 09:57:57 - StopGameParser - INFO - https://stopgame.ru/review/p7: 18 статей -> 18 обзоров
+2026-04-17 09:57:57 - StopGameParser - INFO - Собрано 18 обзоров, всего 108
+2026-04-17 09:57:58 - StopGameParser - INFO - Страница 8/234
+2026-04-17 09:57:58 - StopGameParser - INFO - https://stopgame.ru/review/p8: 18 статей -> 18 обзоров
+2026-04-17 09:57:58 - StopGameParser - INFO - Собрано 18 обзоров, всего 126
+2026-04-17 09:57:59 - StopGameParser - INFO - Страница 9/234
+2026-04-17 09:57:59 - StopGameParser - INFO - https://stopgame.ru/review/p9: 18 статей -> 18 обзоров
+2026-04-17 09:57:59 - StopGameParser - INFO - Собрано 18 обзоров, всего 144
+2026-04-17 09:58:00 - StopGameParser - INFO - Страница 10/234
+2026-04-17 09:58:01 - StopGameParser - INFO - https://stopgame.ru/review/p10: 18 статей -> 18 обзоров
+2026-04-17 09:58:01 - StopGameParser - INFO - Собрано 18 обзоров, всего 162
+2026-04-17 09:58:02 - StopGameParser - INFO - Страница 11/234
+2026-04-17 09:58:02 - StopGameParser - INFO - https://stopgame.ru/review/p11: 18 статей -> 18 обзоров
+2026-04-17 09:58:02 - StopGameParser - INFO - Собрано 18 обзоров, всего 180
+2026-04-17 09:58:03 - StopGameParser - INFO - Страница 12/234
+2026-04-17 09:58:03 - StopGameParser - INFO - https://stopgame.ru/review/p12: 18 статей -> 18 обзоров
+2026-04-17 09:58:03 - StopGameParser - INFO - Собрано 18 обзоров, всего 198
+2026-04-17 09:58:04 - StopGameParser - INFO - Страница 13/234
+2026-04-17 09:58:04 - StopGameParser - INFO - https://stopgame.ru/review/p13: 18 статей -> 18 обзоров
+2026-04-17 09:58:04 - StopGameParser - INFO - Собрано 18 обзоров, всего 216
+2026-04-17 09:58:05 - StopGameParser - INFO - Страница 14/234
+2026-04-17 09:58:05 - StopGameParser - INFO - https://stopgame.ru/review/p14: 18 статей -> 18 обзоров
+2026-04-17 09:58:05 - StopGameParser - INFO - Собрано 18 обзоров, всего 234
+2026-04-17 09:58:06 - StopGameParser - INFO - Страница 15/234
+2026-04-17 09:58:06 - StopGameParser - INFO - https://stopgame.ru/review/p15: 18 статей -> 18 обзоров
+2026-04-17 09:58:06 - StopGameParser - INFO - Собрано 18 обзоров, всего 252
+2026-04-17 09:58:07 - StopGameParser - INFO - Страница 16/234
+2026-04-17 09:58:07 - StopGameParser - INFO - https://stopgame.ru/review/p16: 18 статей -> 18 обзоров
+2026-04-17 09:58:07 - StopGameParser - INFO - Собрано 18 обзоров, всего 270
+2026-04-17 09:58:08 - StopGameParser - INFO - Страница 17/234
+2026-04-17 09:58:08 - StopGameParser - INFO - https://stopgame.ru/review/p17: 18 статей -> 18 обзоров
+2026-04-17 09:58:08 - StopGameParser - INFO - Собрано 18 обзоров, всего 288
+2026-04-17 09:58:09 - StopGameParser - INFO - Страница 18/234
+2026-04-17 09:58:09 - StopGameParser - INFO - https://stopgame.ru/review/p18: 18 статей -> 18 обзоров
+2026-04-17 09:58:09 - StopGameParser - INFO - Собрано 18 обзоров, всего 306
+2026-04-17 09:58:10 - StopGameParser - INFO - Страница 19/234
+2026-04-17 09:58:10 - StopGameParser - INFO - https://stopgame.ru/review/p19: 18 статей -> 18 обзоров
+2026-04-17 09:58:10 - StopGameParser - INFO - Собрано 18 обзоров, всего 324
+2026-04-17 09:58:11 - StopGameParser - INFO - Страница 20/234
+2026-04-17 09:58:11 - StopGameParser - INFO - https://stopgame.ru/review/p20: 18 статей -> 18 обзоров
+2026-04-17 09:58:11 - StopGameParser - INFO - Собрано 18 обзоров, всего 342
+2026-04-17 09:58:12 - StopGameParser - INFO - Страница 21/234
+2026-04-17 09:58:12 - StopGameParser - INFO - https://stopgame.ru/review/p21: 18 статей -> 18 обзоров
+2026-04-17 09:58:12 - StopGameParser - INFO - Собрано 18 обзоров, всего 360
+2026-04-17 09:58:13 - StopGameParser - INFO - Страница 22/234
+2026-04-17 09:58:13 - StopGameParser - INFO - https://stopgame.ru/review/p22: 18 статей -> 18 обзоров
+2026-04-17 09:58:13 - StopGameParser - INFO - Собрано 18 обзоров, всего 378
+2026-04-17 09:58:14 - StopGameParser - INFO - Страница 23/234
+2026-04-17 09:58:14 - StopGameParser - INFO - https://stopgame.ru/review/p23: 18 статей -> 18 обзоров
+2026-04-17 09:58:14 - StopGameParser - INFO - Собрано 18 обзоров, всего 396
+2026-04-17 09:58:15 - StopGameParser - INFO - Страница 24/234
+2026-04-17 09:58:15 - StopGameParser - INFO - https://stopgame.ru/review/p24: 18 статей -> 18 обзоров
+2026-04-17 09:58:15 - StopGameParser - INFO - Собрано 18 обзоров, всего 414
+2026-04-17 09:58:16 - StopGameParser - INFO - Страница 25/234
+2026-04-17 09:58:16 - StopGameParser - INFO - https://stopgame.ru/review/p25: 18 статей -> 18 обзоров
+2026-04-17 09:58:16 - StopGameParser - INFO - Собрано 18 обзоров, всего 432
+2026-04-17 09:58:17 - StopGameParser - INFO - Страница 26/234
+2026-04-17 09:58:17 - StopGameParser - INFO - https://stopgame.ru/review/p26: 18 статей -> 18 обзоров
+2026-04-17 09:58:17 - StopGameParser - INFO - Собрано 18 обзоров, всего 450
+2026-04-17 09:58:18 - StopGameParser - INFO - Страница 27/234
+2026-04-17 09:58:18 - StopGameParser - INFO - https://stopgame.ru/review/p27: 18 статей -> 18 обзоров
+2026-04-17 09:58:18 - StopGameParser - INFO - Собрано 18 обзоров, всего 468
+2026-04-17 09:58:19 - StopGameParser - INFO - Страница 28/234
+2026-04-17 09:58:19 - StopGameParser - INFO - https://stopgame.ru/review/p28: 18 статей -> 18 обзоров
+2026-04-17 09:58:19 - StopGameParser - INFO - Собрано 18 обзоров, всего 486
+2026-04-17 09:58:20 - StopGameParser - INFO - Страница 29/234
+2026-04-17 09:58:20 - StopGameParser - INFO - https://stopgame.ru/review/p29: 18 статей -> 18 обзоров
+2026-04-17 09:58:20 - StopGameParser - INFO - Собрано 18 обзоров, всего 504
+2026-04-17 09:58:21 - StopGameParser - INFO - Страница 30/234
+2026-04-17 09:58:21 - StopGameParser - INFO - https://stopgame.ru/review/p30: 18 статей -> 18 обзоров
+2026-04-17 09:58:21 - StopGameParser - INFO - Собрано 18 обзоров, всего 522
+2026-04-17 09:58:22 - StopGameParser - INFO - Страница 31/234
+2026-04-17 09:58:22 - StopGameParser - INFO - https://stopgame.ru/review/p31: 18 статей -> 18 обзоров
+2026-04-17 09:58:22 - StopGameParser - INFO - Собрано 18 обзоров, всего 540
+2026-04-17 09:58:23 - StopGameParser - INFO - Страница 32/234
+2026-04-17 09:58:23 - StopGameParser - INFO - https://stopgame.ru/review/p32: 18 статей -> 18 обзоров
+2026-04-17 09:58:23 - StopGameParser - INFO - Собрано 18 обзоров, всего 558
+2026-04-17 09:58:24 - StopGameParser - INFO - Страница 33/234
+2026-04-17 09:58:24 - StopGameParser - INFO - https://stopgame.ru/review/p33: 18 статей -> 18 обзоров
+2026-04-17 09:58:24 - StopGameParser - INFO - Собрано 18 обзоров, всего 576
+2026-04-17 09:58:25 - StopGameParser - INFO - Страница 34/234
+2026-04-17 09:58:26 - StopGameParser - INFO - https://stopgame.ru/review/p34: 18 статей -> 18 обзоров
+2026-04-17 09:58:26 - StopGameParser - INFO - Собрано 18 обзоров, всего 594
+2026-04-17 09:58:27 - StopGameParser - INFO - Страница 35/234
+2026-04-17 09:58:27 - StopGameParser - INFO - https://stopgame.ru/review/p35: 18 статей -> 18 обзоров
+2026-04-17 09:58:27 - StopGameParser - INFO - Собрано 18 обзоров, всего 612
+2026-04-17 09:58:28 - StopGameParser - INFO - Страница 36/234
+2026-04-17 09:58:28 - StopGameParser - INFO - https://stopgame.ru/review/p36: 18 статей -> 18 обзоров
+2026-04-17 09:58:28 - StopGameParser - INFO - Собрано 18 обзоров, всего 630
+2026-04-17 09:58:29 - StopGameParser - INFO - Страница 37/234
+2026-04-17 09:58:29 - StopGameParser - INFO - https://stopgame.ru/review/p37: 18 статей -> 18 обзоров
+2026-04-17 09:58:29 - StopGameParser - INFO - Собрано 18 обзоров, всего 648
+2026-04-17 09:58:30 - StopGameParser - INFO - Страница 38/234
+2026-04-17 09:58:30 - StopGameParser - INFO - https://stopgame.ru/review/p38: 18 статей -> 18 обзоров
+2026-04-17 09:58:30 - StopGameParser - INFO - Собрано 18 обзоров, всего 666
+2026-04-17 09:58:31 - StopGameParser - INFO - Страница 39/234
+2026-04-17 09:58:31 - StopGameParser - INFO - https://stopgame.ru/review/p39: 18 статей -> 18 обзоров
+2026-04-17 09:58:31 - StopGameParser - INFO - Собрано 18 обзоров, всего 684
+2026-04-17 09:58:32 - StopGameParser - INFO - Страница 40/234
+2026-04-17 09:58:32 - StopGameParser - INFO - https://stopgame.ru/review/p40: 18 статей -> 18 обзоров
+2026-04-17 09:58:32 - StopGameParser - INFO - Собрано 18 обзоров, всего 702
+2026-04-17 09:58:33 - StopGameParser - INFO - Страница 41/234
+2026-04-17 09:58:33 - StopGameParser - INFO - https://stopgame.ru/review/p41: 18 статей -> 18 обзоров
+2026-04-17 09:58:33 - StopGameParser - INFO - Собрано 18 обзоров, всего 720
+2026-04-17 09:58:34 - StopGameParser - INFO - Страница 42/234
+2026-04-17 09:58:34 - StopGameParser - INFO - https://stopgame.ru/review/p42: 18 статей -> 18 обзоров
+2026-04-17 09:58:34 - StopGameParser - INFO - Собрано 18 обзоров, всего 738
+2026-04-17 09:58:35 - StopGameParser - INFO - Страница 43/234
+2026-04-17 09:58:35 - StopGameParser - INFO - https://stopgame.ru/review/p43: 18 статей -> 18 обзоров
+2026-04-17 09:58:35 - StopGameParser - INFO - Собрано 18 обзоров, всего 756
+2026-04-17 09:58:36 - StopGameParser - INFO - Страница 44/234
+2026-04-17 09:58:36 - StopGameParser - INFO - https://stopgame.ru/review/p44: 18 статей -> 18 обзоров
+2026-04-17 09:58:36 - StopGameParser - INFO - Собрано 18 обзоров, всего 774
+2026-04-17 09:58:37 - StopGameParser - INFO - Страница 45/234
+2026-04-17 09:58:37 - StopGameParser - INFO - https://stopgame.ru/review/p45: 18 статей -> 18 обзоров
+2026-04-17 09:58:37 - StopGameParser - INFO - Собрано 18 обзоров, всего 792
+2026-04-17 09:58:38 - StopGameParser - INFO - Страница 46/234
+2026-04-17 09:58:38 - StopGameParser - INFO - https://stopgame.ru/review/p46: 18 статей -> 18 обзоров
+2026-04-17 09:58:38 - StopGameParser - INFO - Собрано 18 обзоров, всего 810
+2026-04-17 09:58:39 - StopGameParser - INFO - Страница 47/234
+2026-04-17 09:58:39 - StopGameParser - INFO - https://stopgame.ru/review/p47: 18 статей -> 18 обзоров
+2026-04-17 09:58:39 - StopGameParser - INFO - Собрано 18 обзоров, всего 828
+2026-04-17 09:58:40 - StopGameParser - INFO - Страница 48/234
+2026-04-17 09:58:40 - StopGameParser - INFO - https://stopgame.ru/review/p48: 18 статей -> 18 обзоров
+2026-04-17 09:58:40 - StopGameParser - INFO - Собрано 18 обзоров, всего 846
+2026-04-17 09:58:41 - StopGameParser - INFO - Страница 49/234
+2026-04-17 09:58:41 - StopGameParser - INFO - https://stopgame.ru/review/p49: 18 статей -> 18 обзоров
+2026-04-17 09:58:41 - StopGameParser - INFO - Собрано 18 обзоров, всего 864
+2026-04-17 09:58:42 - StopGameParser - INFO - Страница 50/234
+2026-04-17 09:58:42 - StopGameParser - INFO - https://stopgame.ru/review/p50: 18 статей -> 18 обзоров
+2026-04-17 09:58:42 - StopGameParser - INFO - Собрано 18 обзоров, всего 882
+2026-04-17 09:58:43 - StopGameParser - INFO - Страница 51/234
+2026-04-17 09:58:43 - StopGameParser - INFO - https://stopgame.ru/review/p51: 18 статей -> 18 обзоров
+2026-04-17 09:58:43 - StopGameParser - INFO - Собрано 18 обзоров, всего 900
+2026-04-17 09:58:44 - StopGameParser - INFO - Страница 52/234
+2026-04-17 09:58:44 - StopGameParser - INFO - https://stopgame.ru/review/p52: 18 статей -> 18 обзоров
+2026-04-17 09:58:44 - StopGameParser - INFO - Собрано 18 обзоров, всего 918
+2026-04-17 09:58:45 - StopGameParser - INFO - Страница 53/234
+2026-04-17 09:58:45 - StopGameParser - INFO - https://stopgame.ru/review/p53: 18 статей -> 18 обзоров
+2026-04-17 09:58:45 - StopGameParser - INFO - Собрано 18 обзоров, всего 936
+2026-04-17 09:58:46 - StopGameParser - INFO - Страница 54/234
+2026-04-17 09:58:46 - StopGameParser - INFO - https://stopgame.ru/review/p54: 18 статей -> 18 обзоров
+2026-04-17 09:58:46 - StopGameParser - INFO - Собрано 18 обзоров, всего 954
+2026-04-17 09:58:47 - StopGameParser - INFO - Страница 55/234
+2026-04-17 09:58:47 - StopGameParser - INFO - https://stopgame.ru/review/p55: 18 статей -> 18 обзоров
+2026-04-17 09:58:48 - StopGameParser - INFO - Собрано 18 обзоров, всего 972
+2026-04-17 09:58:49 - StopGameParser - INFO - Страница 56/234
+2026-04-17 09:58:49 - StopGameParser - INFO - https://stopgame.ru/review/p56: 18 статей -> 18 обзоров
+2026-04-17 09:58:49 - StopGameParser - INFO - Собрано 18 обзоров, всего 990
+2026-04-17 09:58:50 - StopGameParser - INFO - Страница 57/234
+2026-04-17 09:58:50 - StopGameParser - INFO - https://stopgame.ru/review/p57: 18 статей -> 18 обзоров
+2026-04-17 09:58:50 - StopGameParser - INFO - Собрано 18 обзоров, всего 1008
+2026-04-17 09:58:51 - StopGameParser - INFO - Страница 58/234
+2026-04-17 09:58:51 - StopGameParser - INFO - https://stopgame.ru/review/p58: 18 статей -> 18 обзоров
+2026-04-17 09:58:51 - StopGameParser - INFO - Собрано 18 обзоров, всего 1026
+2026-04-17 09:58:52 - StopGameParser - INFO - Страница 59/234
+2026-04-17 09:58:52 - StopGameParser - INFO - https://stopgame.ru/review/p59: 18 статей -> 18 обзоров
+2026-04-17 09:58:52 - StopGameParser - INFO - Собрано 18 обзоров, всего 1044
+2026-04-17 09:58:53 - StopGameParser - INFO - Страница 60/234
+2026-04-17 09:58:53 - StopGameParser - INFO - https://stopgame.ru/review/p60: 18 статей -> 18 обзоров
+2026-04-17 09:58:53 - StopGameParser - INFO - Собрано 18 обзоров, всего 1062
+2026-04-17 09:58:54 - StopGameParser - INFO - Страница 61/234
+2026-04-17 09:58:54 - StopGameParser - INFO - https://stopgame.ru/review/p61: 18 статей -> 18 обзоров
+2026-04-17 09:58:54 - StopGameParser - INFO - Собрано 18 обзоров, всего 1080
+2026-04-17 09:58:55 - StopGameParser - INFO - Страница 62/234
+2026-04-17 09:58:55 - StopGameParser - INFO - https://stopgame.ru/review/p62: 18 статей -> 18 обзоров
+2026-04-17 09:58:55 - StopGameParser - INFO - Собрано 18 обзоров, всего 1098
+2026-04-17 09:58:56 - StopGameParser - INFO - Страница 63/234
+2026-04-17 09:58:56 - StopGameParser - INFO - https://stopgame.ru/review/p63: 18 статей -> 18 обзоров
+2026-04-17 09:58:56 - StopGameParser - INFO - Собрано 18 обзоров, всего 1116
+2026-04-17 09:58:57 - StopGameParser - INFO - Страница 64/234
+2026-04-17 09:58:57 - StopGameParser - INFO - https://stopgame.ru/review/p64: 18 статей -> 18 обзоров
+2026-04-17 09:58:57 - StopGameParser - INFO - Собрано 18 обзоров, всего 1134
+2026-04-17 09:58:58 - StopGameParser - INFO - Страница 65/234
+2026-04-17 09:58:58 - StopGameParser - INFO - https://stopgame.ru/review/p65: 18 статей -> 18 обзоров
+2026-04-17 09:58:58 - StopGameParser - INFO - Собрано 18 обзоров, всего 1152
+2026-04-17 09:58:59 - StopGameParser - INFO - Страница 66/234
+2026-04-17 09:58:59 - StopGameParser - INFO - https://stopgame.ru/review/p66: 18 статей -> 18 обзоров
+2026-04-17 09:58:59 - StopGameParser - INFO - Собрано 18 обзоров, всего 1170
+2026-04-17 09:59:00 - StopGameParser - INFO - Страница 67/234
+2026-04-17 09:59:00 - StopGameParser - INFO - https://stopgame.ru/review/p67: 18 статей -> 18 обзоров
+2026-04-17 09:59:00 - StopGameParser - INFO - Собрано 18 обзоров, всего 1188
+2026-04-17 09:59:01 - StopGameParser - INFO - Страница 68/234
+2026-04-17 09:59:01 - StopGameParser - INFO - https://stopgame.ru/review/p68: 18 статей -> 18 обзоров
+2026-04-17 09:59:01 - StopGameParser - INFO - Собрано 18 обзоров, всего 1206
+2026-04-17 09:59:02 - StopGameParser - INFO - Страница 69/234
+2026-04-17 09:59:02 - StopGameParser - INFO - https://stopgame.ru/review/p69: 18 статей -> 18 обзоров
+2026-04-17 09:59:02 - StopGameParser - INFO - Собрано 18 обзоров, всего 1224
+2026-04-17 09:59:03 - StopGameParser - INFO - Страница 70/234
+2026-04-17 09:59:03 - StopGameParser - INFO - https://stopgame.ru/review/p70: 18 статей -> 18 обзоров
+2026-04-17 09:59:03 - StopGameParser - INFO - Собрано 18 обзоров, всего 1242
+2026-04-17 09:59:04 - StopGameParser - INFO - Страница 71/234
+2026-04-17 09:59:04 - StopGameParser - INFO - https://stopgame.ru/review/p71: 18 статей -> 18 обзоров
+2026-04-17 09:59:04 - StopGameParser - INFO - Собрано 18 обзоров, всего 1260
+2026-04-17 09:59:05 - StopGameParser - INFO - Страница 72/234
+2026-04-17 09:59:05 - StopGameParser - INFO - https://stopgame.ru/review/p72: 18 статей -> 18 обзоров
+2026-04-17 09:59:05 - StopGameParser - INFO - Собрано 18 обзоров, всего 1278
+2026-04-17 09:59:06 - StopGameParser - INFO - Страница 73/234
+2026-04-17 09:59:06 - StopGameParser - INFO - https://stopgame.ru/review/p73: 18 статей -> 18 обзоров
+2026-04-17 09:59:06 - StopGameParser - INFO - Собрано 18 обзоров, всего 1296
+2026-04-17 09:59:07 - StopGameParser - INFO - Страница 74/234
+2026-04-17 09:59:07 - StopGameParser - INFO - https://stopgame.ru/review/p74: 18 статей -> 18 обзоров
+2026-04-17 09:59:07 - StopGameParser - INFO - Собрано 18 обзоров, всего 1314
+2026-04-17 09:59:08 - StopGameParser - INFO - Страница 75/234
+2026-04-17 09:59:08 - StopGameParser - INFO - https://stopgame.ru/review/p75: 18 статей -> 18 обзоров
+2026-04-17 09:59:09 - StopGameParser - INFO - Собрано 18 обзоров, всего 1332
+2026-04-17 09:59:10 - StopGameParser - INFO - Страница 76/234
+2026-04-17 09:59:10 - StopGameParser - INFO - https://stopgame.ru/review/p76: 18 статей -> 18 обзоров
+2026-04-17 09:59:10 - StopGameParser - INFO - Собрано 18 обзоров, всего 1350
+2026-04-17 09:59:11 - StopGameParser - INFO - Страница 77/234
+2026-04-17 09:59:11 - StopGameParser - INFO - https://stopgame.ru/review/p77: 18 статей -> 18 обзоров
+2026-04-17 09:59:11 - StopGameParser - INFO - Собрано 18 обзоров, всего 1368
+2026-04-17 09:59:12 - StopGameParser - INFO - Страница 78/234
+2026-04-17 09:59:12 - StopGameParser - INFO - https://stopgame.ru/review/p78: 18 статей -> 18 обзоров
+2026-04-17 09:59:12 - StopGameParser - INFO - Собрано 18 обзоров, всего 1386
+2026-04-17 09:59:13 - StopGameParser - INFO - Страница 79/234
+2026-04-17 09:59:13 - StopGameParser - INFO - https://stopgame.ru/review/p79: 18 статей -> 18 обзоров
+2026-04-17 09:59:13 - StopGameParser - INFO - Собрано 18 обзоров, всего 1404
+2026-04-17 09:59:14 - StopGameParser - INFO - Страница 80/234
+2026-04-17 09:59:14 - StopGameParser - INFO - https://stopgame.ru/review/p80: 18 статей -> 18 обзоров
+2026-04-17 09:59:14 - StopGameParser - INFO - Собрано 18 обзоров, всего 1422
+2026-04-17 09:59:15 - StopGameParser - INFO - Страница 81/234
+2026-04-17 09:59:15 - StopGameParser - INFO - https://stopgame.ru/review/p81: 18 статей -> 18 обзоров
+2026-04-17 09:59:15 - StopGameParser - INFO - Собрано 18 обзоров, всего 1440
+2026-04-17 09:59:16 - StopGameParser - INFO - Страница 82/234
+2026-04-17 09:59:16 - StopGameParser - INFO - https://stopgame.ru/review/p82: 18 статей -> 18 обзоров
+2026-04-17 09:59:16 - StopGameParser - INFO - Собрано 18 обзоров, всего 1458
+2026-04-17 09:59:17 - StopGameParser - INFO - Страница 83/234
+2026-04-17 09:59:17 - StopGameParser - INFO - https://stopgame.ru/review/p83: 18 статей -> 18 обзоров
+2026-04-17 09:59:17 - StopGameParser - INFO - Собрано 18 обзоров, всего 1476
+2026-04-17 09:59:18 - StopGameParser - INFO - Страница 84/234
+2026-04-17 09:59:18 - StopGameParser - INFO - https://stopgame.ru/review/p84: 18 статей -> 18 обзоров
+2026-04-17 09:59:18 - StopGameParser - INFO - Собрано 18 обзоров, всего 1494
+2026-04-17 09:59:19 - StopGameParser - INFO - Страница 85/234
+2026-04-17 09:59:19 - StopGameParser - INFO - https://stopgame.ru/review/p85: 18 статей -> 18 обзоров
+2026-04-17 09:59:19 - StopGameParser - INFO - Собрано 18 обзоров, всего 1512
+2026-04-17 09:59:20 - StopGameParser - INFO - Страница 86/234
+2026-04-17 09:59:20 - StopGameParser - INFO - https://stopgame.ru/review/p86: 18 статей -> 18 обзоров
+2026-04-17 09:59:20 - StopGameParser - INFO - Собрано 18 обзоров, всего 1530
+2026-04-17 09:59:21 - StopGameParser - INFO - Страница 87/234
+2026-04-17 09:59:21 - StopGameParser - INFO - https://stopgame.ru/review/p87: 18 статей -> 18 обзоров
+2026-04-17 09:59:21 - StopGameParser - INFO - Собрано 18 обзоров, всего 1548
+2026-04-17 09:59:22 - StopGameParser - INFO - Страница 88/234
+2026-04-17 09:59:22 - StopGameParser - INFO - https://stopgame.ru/review/p88: 18 статей -> 18 обзоров
+2026-04-17 09:59:22 - StopGameParser - INFO - Собрано 18 обзоров, всего 1566
+2026-04-17 09:59:23 - StopGameParser - INFO - Страница 89/234
+2026-04-17 09:59:23 - StopGameParser - INFO - https://stopgame.ru/review/p89: 18 статей -> 18 обзоров
+2026-04-17 09:59:23 - StopGameParser - INFO - Собрано 18 обзоров, всего 1584
+2026-04-17 09:59:24 - StopGameParser - INFO - Страница 90/234
+2026-04-17 09:59:24 - StopGameParser - INFO - https://stopgame.ru/review/p90: 18 статей -> 18 обзоров
+2026-04-17 09:59:24 - StopGameParser - INFO - Собрано 18 обзоров, всего 1602
+2026-04-17 09:59:25 - StopGameParser - INFO - Страница 91/234
+2026-04-17 09:59:25 - StopGameParser - INFO - https://stopgame.ru/review/p91: 18 статей -> 18 обзоров
+2026-04-17 09:59:25 - StopGameParser - INFO - Собрано 18 обзоров, всего 1620
+2026-04-17 09:59:26 - StopGameParser - INFO - Страница 92/234
+2026-04-17 09:59:26 - StopGameParser - INFO - https://stopgame.ru/review/p92: 18 статей -> 18 обзоров
+2026-04-17 09:59:26 - StopGameParser - INFO - Собрано 18 обзоров, всего 1638
+2026-04-17 09:59:27 - StopGameParser - INFO - Страница 93/234
+2026-04-17 09:59:27 - StopGameParser - INFO - https://stopgame.ru/review/p93: 18 статей -> 18 обзоров
+2026-04-17 09:59:27 - StopGameParser - INFO - Собрано 18 обзоров, всего 1656
+2026-04-17 09:59:28 - StopGameParser - INFO - Страница 94/234
+2026-04-17 09:59:29 - StopGameParser - INFO - https://stopgame.ru/review/p94: 18 статей -> 18 обзоров
+2026-04-17 09:59:29 - StopGameParser - INFO - Собрано 18 обзоров, всего 1674
+2026-04-17 09:59:30 - StopGameParser - INFO - Страница 95/234
+2026-04-17 09:59:30 - StopGameParser - INFO - https://stopgame.ru/review/p95: 18 статей -> 18 обзоров
+2026-04-17 09:59:30 - StopGameParser - INFO - Собрано 18 обзоров, всего 1692
+2026-04-17 09:59:31 - StopGameParser - INFO - Страница 96/234
+2026-04-17 09:59:31 - StopGameParser - INFO - https://stopgame.ru/review/p96: 18 статей -> 18 обзоров
+2026-04-17 09:59:31 - StopGameParser - INFO - Собрано 18 обзоров, всего 1710
+2026-04-17 09:59:32 - StopGameParser - INFO - Страница 97/234
+2026-04-17 09:59:32 - StopGameParser - INFO - https://stopgame.ru/review/p97: 18 статей -> 18 обзоров
+2026-04-17 09:59:32 - StopGameParser - INFO - Собрано 18 обзоров, всего 1728
+2026-04-17 09:59:33 - StopGameParser - INFO - Страница 98/234
+2026-04-17 09:59:33 - StopGameParser - INFO - https://stopgame.ru/review/p98: 18 статей -> 18 обзоров
+2026-04-17 09:59:33 - StopGameParser - INFO - Собрано 18 обзоров, всего 1746
+2026-04-17 09:59:34 - StopGameParser - INFO - Страница 99/234
+2026-04-17 09:59:34 - StopGameParser - INFO - https://stopgame.ru/review/p99: 18 статей -> 18 обзоров
+2026-04-17 09:59:34 - StopGameParser - INFO - Собрано 18 обзоров, всего 1764
+2026-04-17 09:59:35 - StopGameParser - INFO - Страница 100/234
+2026-04-17 09:59:35 - StopGameParser - INFO - https://stopgame.ru/review/p100: 18 статей -> 18 обзоров
+2026-04-17 09:59:35 - StopGameParser - INFO - Собрано 18 обзоров, всего 1782
+2026-04-17 09:59:36 - StopGameParser - INFO - Страница 101/234
+2026-04-17 09:59:36 - StopGameParser - INFO - https://stopgame.ru/review/p101: 18 статей -> 18 обзоров
+2026-04-17 09:59:36 - StopGameParser - INFO - Собрано 18 обзоров, всего 1800
+2026-04-17 09:59:37 - StopGameParser - INFO - Страница 102/234
+2026-04-17 09:59:37 - StopGameParser - INFO - https://stopgame.ru/review/p102: 18 статей -> 18 обзоров
+2026-04-17 09:59:37 - StopGameParser - INFO - Собрано 18 обзоров, всего 1818
+2026-04-17 09:59:38 - StopGameParser - INFO - Страница 103/234
+2026-04-17 09:59:38 - StopGameParser - INFO - https://stopgame.ru/review/p103: 18 статей -> 18 обзоров
+2026-04-17 09:59:38 - StopGameParser - INFO - Собрано 18 обзоров, всего 1836
+2026-04-17 09:59:39 - StopGameParser - INFO - Страница 104/234
+2026-04-17 09:59:39 - StopGameParser - INFO - https://stopgame.ru/review/p104: 18 статей -> 18 обзоров
+2026-04-17 09:59:39 - StopGameParser - INFO - Собрано 18 обзоров, всего 1854
+2026-04-17 09:59:40 - StopGameParser - INFO - Страница 105/234
+2026-04-17 09:59:40 - StopGameParser - INFO - https://stopgame.ru/review/p105: 18 статей -> 18 обзоров
+2026-04-17 09:59:40 - StopGameParser - INFO - Собрано 18 обзоров, всего 1872
+2026-04-17 09:59:41 - StopGameParser - INFO - Страница 106/234
+2026-04-17 09:59:41 - StopGameParser - INFO - https://stopgame.ru/review/p106: 18 статей -> 18 обзоров
+2026-04-17 09:59:41 - StopGameParser - INFO - Собрано 18 обзоров, всего 1890
+2026-04-17 09:59:42 - StopGameParser - INFO - Страница 107/234
+2026-04-17 09:59:42 - StopGameParser - INFO - https://stopgame.ru/review/p107: 18 статей -> 18 обзоров
+2026-04-17 09:59:42 - StopGameParser - INFO - Собрано 18 обзоров, всего 1908
+2026-04-17 09:59:43 - StopGameParser - INFO - Страница 108/234
+2026-04-17 09:59:43 - StopGameParser - INFO - https://stopgame.ru/review/p108: 18 статей -> 18 обзоров
+2026-04-17 09:59:43 - StopGameParser - INFO - Собрано 18 обзоров, всего 1926
+2026-04-17 09:59:44 - StopGameParser - INFO - Страница 109/234
+2026-04-17 09:59:44 - StopGameParser - INFO - https://stopgame.ru/review/p109: 18 статей -> 18 обзоров
+2026-04-17 09:59:44 - StopGameParser - INFO - Собрано 18 обзоров, всего 1944
+2026-04-17 09:59:45 - StopGameParser - INFO - Страница 110/234
+2026-04-17 09:59:45 - StopGameParser - INFO - https://stopgame.ru/review/p110: 18 статей -> 18 обзоров
+2026-04-17 09:59:45 - StopGameParser - INFO - Собрано 18 обзоров, всего 1962
+2026-04-17 09:59:46 - StopGameParser - INFO - Страница 111/234
+2026-04-17 09:59:46 - StopGameParser - INFO - https://stopgame.ru/review/p111: 18 статей -> 18 обзоров
+2026-04-17 09:59:46 - StopGameParser - INFO - Собрано 18 обзоров, всего 1980
+2026-04-17 09:59:47 - StopGameParser - INFO - Страница 112/234
+2026-04-17 09:59:48 - StopGameParser - INFO - https://stopgame.ru/review/p112: 18 статей -> 18 обзоров
+2026-04-17 09:59:48 - StopGameParser - INFO - Собрано 18 обзоров, всего 1998
+2026-04-17 09:59:49 - StopGameParser - INFO - Страница 113/234
+2026-04-17 09:59:49 - StopGameParser - INFO - https://stopgame.ru/review/p113: 18 статей -> 18 обзоров
+2026-04-17 09:59:49 - StopGameParser - INFO - Собрано 18 обзоров, всего 2016
+2026-04-17 09:59:50 - StopGameParser - INFO - Страница 114/234
+2026-04-17 09:59:50 - StopGameParser - INFO - https://stopgame.ru/review/p114: 18 статей -> 18 обзоров
+2026-04-17 09:59:50 - StopGameParser - INFO - Собрано 18 обзоров, всего 2034
+2026-04-17 09:59:51 - StopGameParser - INFO - Страница 115/234
+2026-04-17 09:59:51 - StopGameParser - INFO - https://stopgame.ru/review/p115: 18 статей -> 18 обзоров
+2026-04-17 09:59:51 - StopGameParser - INFO - Собрано 18 обзоров, всего 2052
+2026-04-17 09:59:52 - StopGameParser - INFO - Страница 116/234
+2026-04-17 09:59:52 - StopGameParser - INFO - https://stopgame.ru/review/p116: 18 статей -> 18 обзоров
+2026-04-17 09:59:52 - StopGameParser - INFO - Собрано 18 обзоров, всего 2070
+2026-04-17 09:59:53 - StopGameParser - INFO - Страница 117/234
+2026-04-17 09:59:53 - StopGameParser - INFO - https://stopgame.ru/review/p117: 18 статей -> 18 обзоров
+2026-04-17 09:59:53 - StopGameParser - INFO - Собрано 18 обзоров, всего 2088
+2026-04-17 09:59:54 - StopGameParser - INFO - Страница 118/234
+2026-04-17 09:59:54 - StopGameParser - INFO - https://stopgame.ru/review/p118: 18 статей -> 18 обзоров
+2026-04-17 09:59:54 - StopGameParser - INFO - Собрано 18 обзоров, всего 2106
+2026-04-17 09:59:55 - StopGameParser - INFO - Страница 119/234
+2026-04-17 09:59:55 - StopGameParser - INFO - https://stopgame.ru/review/p119: 18 статей -> 18 обзоров
+2026-04-17 09:59:55 - StopGameParser - INFO - Собрано 18 обзоров, всего 2124
+2026-04-17 09:59:56 - StopGameParser - INFO - Страница 120/234
+2026-04-17 09:59:56 - StopGameParser - INFO - https://stopgame.ru/review/p120: 18 статей -> 18 обзоров
+2026-04-17 09:59:56 - StopGameParser - INFO - Собрано 18 обзоров, всего 2142
+2026-04-17 09:59:57 - StopGameParser - INFO - Страница 121/234
+2026-04-17 09:59:57 - StopGameParser - INFO - https://stopgame.ru/review/p121: 18 статей -> 18 обзоров
+2026-04-17 09:59:57 - StopGameParser - INFO - Собрано 18 обзоров, всего 2160
+2026-04-17 09:59:58 - StopGameParser - INFO - Страница 122/234
+2026-04-17 09:59:58 - StopGameParser - INFO - https://stopgame.ru/review/p122: 18 статей -> 18 обзоров
+2026-04-17 09:59:58 - StopGameParser - INFO - Собрано 18 обзоров, всего 2178
+2026-04-17 09:59:59 - StopGameParser - INFO - Страница 123/234
+2026-04-17 09:59:59 - StopGameParser - INFO - https://stopgame.ru/review/p123: 18 статей -> 18 обзоров
+2026-04-17 09:59:59 - StopGameParser - INFO - Собрано 18 обзоров, всего 2196
+2026-04-17 10:00:00 - StopGameParser - INFO - Страница 124/234
+2026-04-17 10:00:00 - StopGameParser - INFO - https://stopgame.ru/review/p124: 18 статей -> 18 обзоров
+2026-04-17 10:00:00 - StopGameParser - INFO - Собрано 18 обзоров, всего 2214
+2026-04-17 10:00:01 - StopGameParser - INFO - Страница 125/234
+2026-04-17 10:00:01 - StopGameParser - INFO - https://stopgame.ru/review/p125: 18 статей -> 18 обзоров
+2026-04-17 10:00:01 - StopGameParser - INFO - Собрано 18 обзоров, всего 2232
+2026-04-17 10:00:02 - StopGameParser - INFO - Страница 126/234
+2026-04-17 10:00:02 - StopGameParser - INFO - https://stopgame.ru/review/p126: 18 статей -> 18 обзоров
+2026-04-17 10:00:02 - StopGameParser - INFO - Собрано 18 обзоров, всего 2250
+2026-04-17 10:00:03 - StopGameParser - INFO - Страница 127/234
+2026-04-17 10:00:03 - StopGameParser - INFO - https://stopgame.ru/review/p127: 18 статей -> 18 обзоров
+2026-04-17 10:00:03 - StopGameParser - INFO - Собрано 18 обзоров, всего 2268
+2026-04-17 10:00:04 - StopGameParser - INFO - Страница 128/234
+2026-04-17 10:00:04 - StopGameParser - INFO - https://stopgame.ru/review/p128: 18 статей -> 18 обзоров
+2026-04-17 10:00:05 - StopGameParser - INFO - Собрано 18 обзоров, всего 2286
+2026-04-17 10:00:06 - StopGameParser - INFO - Страница 129/234
+2026-04-17 10:00:06 - StopGameParser - INFO - https://stopgame.ru/review/p129: 18 статей -> 18 обзоров
+2026-04-17 10:00:06 - StopGameParser - INFO - Собрано 18 обзоров, всего 2304
+2026-04-17 10:00:07 - StopGameParser - INFO - Страница 130/234
+2026-04-17 10:00:07 - StopGameParser - INFO - https://stopgame.ru/review/p130: 18 статей -> 18 обзоров
+2026-04-17 10:00:07 - StopGameParser - INFO - Собрано 18 обзоров, всего 2322
+2026-04-17 10:00:08 - StopGameParser - INFO - Страница 131/234
+2026-04-17 10:00:08 - StopGameParser - INFO - https://stopgame.ru/review/p131: 18 статей -> 18 обзоров
+2026-04-17 10:00:08 - StopGameParser - INFO - Собрано 18 обзоров, всего 2340
+2026-04-17 10:00:09 - StopGameParser - INFO - Страница 132/234
+2026-04-17 10:00:09 - StopGameParser - INFO - https://stopgame.ru/review/p132: 18 статей -> 18 обзоров
+2026-04-17 10:00:09 - StopGameParser - INFO - Собрано 18 обзоров, всего 2358
+2026-04-17 10:00:10 - StopGameParser - INFO - Страница 133/234
+2026-04-17 10:00:10 - StopGameParser - INFO - https://stopgame.ru/review/p133: 18 статей -> 18 обзоров
+2026-04-17 10:00:10 - StopGameParser - INFO - Собрано 18 обзоров, всего 2376
+2026-04-17 10:00:11 - StopGameParser - INFO - Страница 134/234
+2026-04-17 10:00:11 - StopGameParser - INFO - https://stopgame.ru/review/p134: 18 статей -> 18 обзоров
+2026-04-17 10:00:11 - StopGameParser - INFO - Собрано 18 обзоров, всего 2394
+2026-04-17 10:00:12 - StopGameParser - INFO - Страница 135/234
+2026-04-17 10:00:12 - StopGameParser - INFO - https://stopgame.ru/review/p135: 18 статей -> 18 обзоров
+2026-04-17 10:00:12 - StopGameParser - INFO - Собрано 18 обзоров, всего 2412
+2026-04-17 10:00:13 - StopGameParser - INFO - Страница 136/234
+2026-04-17 10:00:13 - StopGameParser - INFO - https://stopgame.ru/review/p136: 18 статей -> 18 обзоров
+2026-04-17 10:00:13 - StopGameParser - INFO - Собрано 18 обзоров, всего 2430
+2026-04-17 10:00:14 - StopGameParser - INFO - Страница 137/234
+2026-04-17 10:00:14 - StopGameParser - INFO - https://stopgame.ru/review/p137: 18 статей -> 18 обзоров
+2026-04-17 10:00:14 - StopGameParser - INFO - Собрано 18 обзоров, всего 2448
+2026-04-17 10:00:15 - StopGameParser - INFO - Страница 138/234
+2026-04-17 10:00:15 - StopGameParser - INFO - https://stopgame.ru/review/p138: 18 статей -> 18 обзоров
+2026-04-17 10:00:15 - StopGameParser - INFO - Собрано 18 обзоров, всего 2466
+2026-04-17 10:00:16 - StopGameParser - INFO - Страница 139/234
+2026-04-17 10:00:16 - StopGameParser - INFO - https://stopgame.ru/review/p139: 18 статей -> 18 обзоров
+2026-04-17 10:00:16 - StopGameParser - INFO - Собрано 18 обзоров, всего 2484
+2026-04-17 10:00:17 - StopGameParser - INFO - Страница 140/234
+2026-04-17 10:00:17 - StopGameParser - INFO - https://stopgame.ru/review/p140: 18 статей -> 18 обзоров
+2026-04-17 10:00:17 - StopGameParser - INFO - Собрано 18 обзоров, всего 2502
+2026-04-17 10:00:18 - StopGameParser - INFO - Страница 141/234
+2026-04-17 10:00:18 - StopGameParser - INFO - https://stopgame.ru/review/p141: 18 статей -> 18 обзоров
+2026-04-17 10:00:18 - StopGameParser - INFO - Собрано 18 обзоров, всего 2520
+2026-04-17 10:00:19 - StopGameParser - INFO - Страница 142/234
+2026-04-17 10:00:19 - StopGameParser - INFO - https://stopgame.ru/review/p142: 18 статей -> 18 обзоров
+2026-04-17 10:00:19 - StopGameParser - INFO - Собрано 18 обзоров, всего 2538
+2026-04-17 10:00:20 - StopGameParser - INFO - Страница 143/234
+2026-04-17 10:00:20 - StopGameParser - INFO - https://stopgame.ru/review/p143: 18 статей -> 18 обзоров
+2026-04-17 10:00:20 - StopGameParser - INFO - Собрано 18 обзоров, всего 2556
+2026-04-17 10:00:21 - StopGameParser - INFO - Страница 144/234
+2026-04-17 10:00:22 - StopGameParser - INFO - https://stopgame.ru/review/p144: 18 статей -> 18 обзоров
+2026-04-17 10:00:22 - StopGameParser - INFO - Собрано 18 обзоров, всего 2574
+2026-04-17 10:00:23 - StopGameParser - INFO - Страница 145/234
+2026-04-17 10:00:23 - StopGameParser - INFO - https://stopgame.ru/review/p145: 18 статей -> 18 обзоров
+2026-04-17 10:00:23 - StopGameParser - INFO - Собрано 18 обзоров, всего 2592
+2026-04-17 10:00:24 - StopGameParser - INFO - Страница 146/234
+2026-04-17 10:00:24 - StopGameParser - INFO - https://stopgame.ru/review/p146: 18 статей -> 18 обзоров
+2026-04-17 10:00:24 - StopGameParser - INFO - Собрано 18 обзоров, всего 2610
+2026-04-17 10:00:25 - StopGameParser - INFO - Страница 147/234
+2026-04-17 10:00:25 - StopGameParser - INFO - https://stopgame.ru/review/p147: 18 статей -> 18 обзоров
+2026-04-17 10:00:25 - StopGameParser - INFO - Собрано 18 обзоров, всего 2628
+2026-04-17 10:00:26 - StopGameParser - INFO - Страница 148/234
+2026-04-17 10:00:26 - StopGameParser - INFO - https://stopgame.ru/review/p148: 18 статей -> 18 обзоров
+2026-04-17 10:00:26 - StopGameParser - INFO - Собрано 18 обзоров, всего 2646
+2026-04-17 10:00:27 - StopGameParser - INFO - Страница 149/234
+2026-04-17 10:00:27 - StopGameParser - INFO - https://stopgame.ru/review/p149: 18 статей -> 18 обзоров
+2026-04-17 10:00:27 - StopGameParser - INFO - Собрано 18 обзоров, всего 2664
+2026-04-17 10:00:28 - StopGameParser - INFO - Страница 150/234
+2026-04-17 10:00:28 - StopGameParser - INFO - https://stopgame.ru/review/p150: 18 статей -> 18 обзоров
+2026-04-17 10:00:28 - StopGameParser - INFO - Собрано 18 обзоров, всего 2682
+2026-04-17 10:00:29 - StopGameParser - INFO - Страница 151/234
+2026-04-17 10:00:29 - StopGameParser - INFO - https://stopgame.ru/review/p151: 18 статей -> 18 обзоров
+2026-04-17 10:00:29 - StopGameParser - INFO - Собрано 18 обзоров, всего 2700
+2026-04-17 10:00:30 - StopGameParser - INFO - Страница 152/234
+2026-04-17 10:00:30 - StopGameParser - INFO - https://stopgame.ru/review/p152: 18 статей -> 18 обзоров
+2026-04-17 10:00:30 - StopGameParser - INFO - Собрано 18 обзоров, всего 2718
+2026-04-17 10:00:31 - StopGameParser - INFO - Страница 153/234
+2026-04-17 10:00:31 - StopGameParser - INFO - https://stopgame.ru/review/p153: 18 статей -> 18 обзоров
+2026-04-17 10:00:31 - StopGameParser - INFO - Собрано 18 обзоров, всего 2736
+2026-04-17 10:00:32 - StopGameParser - INFO - Страница 154/234
+2026-04-17 10:00:32 - StopGameParser - INFO - https://stopgame.ru/review/p154: 18 статей -> 18 обзоров
+2026-04-17 10:00:32 - StopGameParser - INFO - Собрано 18 обзоров, всего 2754
+2026-04-17 10:00:33 - StopGameParser - INFO - Страница 155/234
+2026-04-17 10:00:33 - StopGameParser - INFO - https://stopgame.ru/review/p155: 18 статей -> 18 обзоров
+2026-04-17 10:00:33 - StopGameParser - INFO - Собрано 18 обзоров, всего 2772
+2026-04-17 10:00:34 - StopGameParser - INFO - Страница 156/234
+2026-04-17 10:00:34 - StopGameParser - INFO - https://stopgame.ru/review/p156: 18 статей -> 18 обзоров
+2026-04-17 10:00:34 - StopGameParser - INFO - Собрано 18 обзоров, всего 2790
+2026-04-17 10:00:35 - StopGameParser - INFO - Страница 157/234
+2026-04-17 10:00:35 - StopGameParser - INFO - https://stopgame.ru/review/p157: 18 статей -> 18 обзоров
+2026-04-17 10:00:35 - StopGameParser - INFO - Собрано 18 обзоров, всего 2808
+2026-04-17 10:00:36 - StopGameParser - INFO - Страница 158/234
+2026-04-17 10:00:36 - StopGameParser - INFO - https://stopgame.ru/review/p158: 18 статей -> 18 обзоров
+2026-04-17 10:00:36 - StopGameParser - INFO - Собрано 18 обзоров, всего 2826
+2026-04-17 10:00:37 - StopGameParser - INFO - Страница 159/234
+2026-04-17 10:00:38 - StopGameParser - INFO - https://stopgame.ru/review/p159: 18 статей -> 18 обзоров
+2026-04-17 10:00:38 - StopGameParser - INFO - Собрано 18 обзоров, всего 2844
+2026-04-17 10:00:39 - StopGameParser - INFO - Страница 160/234
+2026-04-17 10:00:39 - StopGameParser - INFO - https://stopgame.ru/review/p160: 18 статей -> 17 обзоров
+2026-04-17 10:00:39 - StopGameParser - INFO - Собрано 17 обзоров, всего 2861
+2026-04-17 10:00:40 - StopGameParser - INFO - Страница 161/234
+2026-04-17 10:00:40 - StopGameParser - INFO - https://stopgame.ru/review/p161: 18 статей -> 18 обзоров
+2026-04-17 10:00:40 - StopGameParser - INFO - Собрано 18 обзоров, всего 2879
+2026-04-17 10:00:41 - StopGameParser - INFO - Страница 162/234
+2026-04-17 10:00:41 - StopGameParser - INFO - https://stopgame.ru/review/p162: 18 статей -> 18 обзоров
+2026-04-17 10:00:41 - StopGameParser - INFO - Собрано 18 обзоров, всего 2897
+2026-04-17 10:00:42 - StopGameParser - INFO - Страница 163/234
+2026-04-17 10:00:42 - StopGameParser - INFO - https://stopgame.ru/review/p163: 18 статей -> 17 обзоров
+2026-04-17 10:00:42 - StopGameParser - INFO - Собрано 17 обзоров, всего 2914
+2026-04-17 10:00:43 - StopGameParser - INFO - Страница 164/234
+2026-04-17 10:00:43 - StopGameParser - INFO - https://stopgame.ru/review/p164: 18 статей -> 16 обзоров
+2026-04-17 10:00:43 - StopGameParser - INFO - Собрано 16 обзоров, всего 2930
+2026-04-17 10:00:44 - StopGameParser - INFO - Страница 165/234
+2026-04-17 10:00:44 - StopGameParser - INFO - https://stopgame.ru/review/p165: 18 статей -> 18 обзоров
+2026-04-17 10:00:44 - StopGameParser - INFO - Собрано 18 обзоров, всего 2948
+2026-04-17 10:00:45 - StopGameParser - INFO - Страница 166/234
+2026-04-17 10:00:45 - StopGameParser - INFO - https://stopgame.ru/review/p166: 18 статей -> 18 обзоров
+2026-04-17 10:00:45 - StopGameParser - INFO - Собрано 18 обзоров, всего 2966
+2026-04-17 10:00:46 - StopGameParser - INFO - Страница 167/234
+2026-04-17 10:00:46 - StopGameParser - INFO - https://stopgame.ru/review/p167: 18 статей -> 17 обзоров
+2026-04-17 10:00:46 - StopGameParser - INFO - Собрано 17 обзоров, всего 2983
+2026-04-17 10:00:47 - StopGameParser - INFO - Страница 168/234
+2026-04-17 10:00:47 - StopGameParser - INFO - https://stopgame.ru/review/p168: 18 статей -> 18 обзоров
+2026-04-17 10:00:47 - StopGameParser - INFO - Собрано 18 обзоров, всего 3001
+2026-04-17 10:00:48 - StopGameParser - INFO - Страница 169/234
+2026-04-17 10:00:48 - StopGameParser - INFO - https://stopgame.ru/review/p169: 18 статей -> 18 обзоров
+2026-04-17 10:00:48 - StopGameParser - INFO - Собрано 18 обзоров, всего 3019
+2026-04-17 10:00:49 - StopGameParser - INFO - Страница 170/234
+2026-04-17 10:00:49 - StopGameParser - INFO - https://stopgame.ru/review/p170: 18 статей -> 18 обзоров
+2026-04-17 10:00:49 - StopGameParser - INFO - Собрано 18 обзоров, всего 3037
+2026-04-17 10:00:50 - StopGameParser - INFO - Страница 171/234
+2026-04-17 10:00:50 - StopGameParser - INFO - https://stopgame.ru/review/p171: 18 статей -> 17 обзоров
+2026-04-17 10:00:50 - StopGameParser - INFO - Собрано 17 обзоров, всего 3054
+2026-04-17 10:00:51 - StopGameParser - INFO - Страница 172/234
+2026-04-17 10:00:51 - StopGameParser - INFO - https://stopgame.ru/review/p172: 18 статей -> 18 обзоров
+2026-04-17 10:00:51 - StopGameParser - INFO - Собрано 18 обзоров, всего 3072
+2026-04-17 10:00:52 - StopGameParser - INFO - Страница 173/234
+2026-04-17 10:00:52 - StopGameParser - INFO - https://stopgame.ru/review/p173: 18 статей -> 14 обзоров
+2026-04-17 10:00:53 - StopGameParser - INFO - Собрано 14 обзоров, всего 3086
+2026-04-17 10:00:54 - StopGameParser - INFO - Страница 174/234
+2026-04-17 10:00:54 - StopGameParser - INFO - https://stopgame.ru/review/p174: 18 статей -> 18 обзоров
+2026-04-17 10:00:54 - StopGameParser - INFO - Собрано 18 обзоров, всего 3104
+2026-04-17 10:00:55 - StopGameParser - INFO - Страница 175/234
+2026-04-17 10:00:55 - StopGameParser - INFO - https://stopgame.ru/review/p175: 18 статей -> 18 обзоров
+2026-04-17 10:00:55 - StopGameParser - INFO - Собрано 18 обзоров, всего 3122
+2026-04-17 10:00:56 - StopGameParser - INFO - Страница 176/234
+2026-04-17 10:00:56 - StopGameParser - INFO - https://stopgame.ru/review/p176: 18 статей -> 18 обзоров
+2026-04-17 10:00:56 - StopGameParser - INFO - Собрано 18 обзоров, всего 3140
+2026-04-17 10:00:57 - StopGameParser - INFO - Страница 177/234
+2026-04-17 10:00:57 - StopGameParser - INFO - https://stopgame.ru/review/p177: 18 статей -> 18 обзоров
+2026-04-17 10:00:57 - StopGameParser - INFO - Собрано 18 обзоров, всего 3158
+2026-04-17 10:00:58 - StopGameParser - INFO - Страница 178/234
+2026-04-17 10:00:58 - StopGameParser - INFO - https://stopgame.ru/review/p178: 18 статей -> 17 обзоров
+2026-04-17 10:00:58 - StopGameParser - INFO - Собрано 17 обзоров, всего 3175
+2026-04-17 10:00:59 - StopGameParser - INFO - Страница 179/234
+2026-04-17 10:00:59 - StopGameParser - INFO - https://stopgame.ru/review/p179: 18 статей -> 16 обзоров
+2026-04-17 10:00:59 - StopGameParser - INFO - Собрано 16 обзоров, всего 3191
+2026-04-17 10:01:00 - StopGameParser - INFO - Страница 180/234
+2026-04-17 10:01:00 - StopGameParser - INFO - https://stopgame.ru/review/p180: 18 статей -> 18 обзоров
+2026-04-17 10:01:00 - StopGameParser - INFO - Собрано 18 обзоров, всего 3209
+2026-04-17 10:01:01 - StopGameParser - INFO - Страница 181/234
+2026-04-17 10:01:01 - StopGameParser - INFO - https://stopgame.ru/review/p181: 18 статей -> 16 обзоров
+2026-04-17 10:01:01 - StopGameParser - INFO - Собрано 16 обзоров, всего 3225
+2026-04-17 10:01:02 - StopGameParser - INFO - Страница 182/234
+2026-04-17 10:01:02 - StopGameParser - INFO - https://stopgame.ru/review/p182: 18 статей -> 17 обзоров
+2026-04-17 10:01:02 - StopGameParser - INFO - Собрано 17 обзоров, всего 3242
+2026-04-17 10:01:03 - StopGameParser - INFO - Страница 183/234
+2026-04-17 10:01:03 - StopGameParser - INFO - https://stopgame.ru/review/p183: 18 статей -> 16 обзоров
+2026-04-17 10:01:03 - StopGameParser - INFO - Собрано 16 обзоров, всего 3258
+2026-04-17 10:01:04 - StopGameParser - INFO - Страница 184/234
+2026-04-17 10:01:04 - StopGameParser - INFO - https://stopgame.ru/review/p184: 18 статей -> 17 обзоров
+2026-04-17 10:01:04 - StopGameParser - INFO - Собрано 17 обзоров, всего 3275
+2026-04-17 10:01:05 - StopGameParser - INFO - Страница 185/234
+2026-04-17 10:01:05 - StopGameParser - INFO - https://stopgame.ru/review/p185: 18 статей -> 14 обзоров
+2026-04-17 10:01:05 - StopGameParser - INFO - Собрано 14 обзоров, всего 3289
+2026-04-17 10:01:06 - StopGameParser - INFO - Страница 186/234
+2026-04-17 10:01:06 - StopGameParser - INFO - https://stopgame.ru/review/p186: 18 статей -> 15 обзоров
+2026-04-17 10:01:06 - StopGameParser - INFO - Собрано 15 обзоров, всего 3304
+2026-04-17 10:01:07 - StopGameParser - INFO - Страница 187/234
+2026-04-17 10:01:07 - StopGameParser - INFO - https://stopgame.ru/review/p187: 18 статей -> 15 обзоров
+2026-04-17 10:01:08 - StopGameParser - INFO - Собрано 15 обзоров, всего 3319
+2026-04-17 10:01:09 - StopGameParser - INFO - Страница 188/234
+2026-04-17 10:01:09 - StopGameParser - INFO - https://stopgame.ru/review/p188: 18 статей -> 18 обзоров
+2026-04-17 10:01:09 - StopGameParser - INFO - Собрано 18 обзоров, всего 3337
+2026-04-17 10:01:10 - StopGameParser - INFO - Страница 189/234
+2026-04-17 10:01:10 - StopGameParser - INFO - https://stopgame.ru/review/p189: 18 статей -> 18 обзоров
+2026-04-17 10:01:10 - StopGameParser - INFO - Собрано 18 обзоров, всего 3355
+2026-04-17 10:01:11 - StopGameParser - INFO - Страница 190/234
+2026-04-17 10:01:11 - StopGameParser - INFO - https://stopgame.ru/review/p190: 18 статей -> 18 обзоров
+2026-04-17 10:01:11 - StopGameParser - INFO - Собрано 18 обзоров, всего 3373
+2026-04-17 10:01:12 - StopGameParser - INFO - Страница 191/234
+2026-04-17 10:01:12 - StopGameParser - INFO - https://stopgame.ru/review/p191: 18 статей -> 18 обзоров
+2026-04-17 10:01:12 - StopGameParser - INFO - Собрано 18 обзоров, всего 3391
+2026-04-17 10:01:13 - StopGameParser - INFO - Страница 192/234
+2026-04-17 10:01:13 - StopGameParser - INFO - https://stopgame.ru/review/p192: 18 статей -> 16 обзоров
+2026-04-17 10:01:13 - StopGameParser - INFO - Собрано 16 обзоров, всего 3407
+2026-04-17 10:01:14 - StopGameParser - INFO - Страница 193/234
+2026-04-17 10:01:14 - StopGameParser - INFO - https://stopgame.ru/review/p193: 18 статей -> 15 обзоров
+2026-04-17 10:01:14 - StopGameParser - INFO - Собрано 15 обзоров, всего 3422
+2026-04-17 10:01:15 - StopGameParser - INFO - Страница 194/234
+2026-04-17 10:01:15 - StopGameParser - INFO - https://stopgame.ru/review/p194: 18 статей -> 16 обзоров
+2026-04-17 10:01:15 - StopGameParser - INFO - Собрано 16 обзоров, всего 3438
+2026-04-17 10:01:16 - StopGameParser - INFO - Страница 195/234
+2026-04-17 10:01:16 - StopGameParser - INFO - https://stopgame.ru/review/p195: 18 статей -> 16 обзоров
+2026-04-17 10:01:16 - StopGameParser - INFO - Собрано 16 обзоров, всего 3454
+2026-04-17 10:01:17 - StopGameParser - INFO - Страница 196/234
+2026-04-17 10:01:17 - StopGameParser - INFO - https://stopgame.ru/review/p196: 18 статей -> 15 обзоров
+2026-04-17 10:01:17 - StopGameParser - INFO - Собрано 15 обзоров, всего 3469
+2026-04-17 10:01:18 - StopGameParser - INFO - Страница 197/234
+2026-04-17 10:01:18 - StopGameParser - INFO - https://stopgame.ru/review/p197: 18 статей -> 14 обзоров
+2026-04-17 10:01:18 - StopGameParser - INFO - Собрано 14 обзоров, всего 3483
+2026-04-17 10:01:19 - StopGameParser - INFO - Страница 198/234
+2026-04-17 10:01:19 - StopGameParser - INFO - https://stopgame.ru/review/p198: 18 статей -> 15 обзоров
+2026-04-17 10:01:19 - StopGameParser - INFO - Собрано 15 обзоров, всего 3498
+2026-04-17 10:01:20 - StopGameParser - INFO - Страница 199/234
+2026-04-17 10:01:20 - StopGameParser - INFO - https://stopgame.ru/review/p199: 18 статей -> 13 обзоров
+2026-04-17 10:01:20 - StopGameParser - INFO - Собрано 13 обзоров, всего 3511
+2026-04-17 10:01:21 - StopGameParser - INFO - Страница 200/234
+2026-04-17 10:01:21 - StopGameParser - INFO - https://stopgame.ru/review/p200: 18 статей -> 13 обзоров
+2026-04-17 10:01:21 - StopGameParser - INFO - Собрано 13 обзоров, всего 3524
+2026-04-17 10:01:22 - StopGameParser - INFO - Страница 201/234
+2026-04-17 10:01:23 - StopGameParser - INFO - https://stopgame.ru/review/p201: 18 статей -> 11 обзоров
+2026-04-17 10:01:23 - StopGameParser - INFO - Собрано 11 обзоров, всего 3535
+2026-04-17 10:01:24 - StopGameParser - INFO - Страница 202/234
+2026-04-17 10:01:24 - StopGameParser - INFO - https://stopgame.ru/review/p202: 18 статей -> 12 обзоров
+2026-04-17 10:01:24 - StopGameParser - INFO - Собрано 12 обзоров, всего 3547
+2026-04-17 10:01:25 - StopGameParser - INFO - Страница 203/234
+2026-04-17 10:01:25 - StopGameParser - INFO - https://stopgame.ru/review/p203: 18 статей -> 10 обзоров
+2026-04-17 10:01:25 - StopGameParser - INFO - Собрано 10 обзоров, всего 3557
+2026-04-17 10:01:26 - StopGameParser - INFO - Страница 204/234
+2026-04-17 10:01:26 - StopGameParser - INFO - https://stopgame.ru/review/p204: 18 статей -> 10 обзоров
+2026-04-17 10:01:26 - StopGameParser - INFO - Собрано 10 обзоров, всего 3567
+2026-04-17 10:01:27 - StopGameParser - INFO - Страница 205/234
+2026-04-17 10:01:27 - StopGameParser - INFO - https://stopgame.ru/review/p205: 18 статей -> 14 обзоров
+2026-04-17 10:01:27 - StopGameParser - INFO - Собрано 14 обзоров, всего 3581
+2026-04-17 10:01:28 - StopGameParser - INFO - Страница 206/234
+2026-04-17 10:01:28 - StopGameParser - INFO - https://stopgame.ru/review/p206: 18 статей -> 10 обзоров
+2026-04-17 10:01:28 - StopGameParser - INFO - Собрано 10 обзоров, всего 3591
+2026-04-17 10:01:29 - StopGameParser - INFO - Страница 207/234
+2026-04-17 10:01:29 - StopGameParser - INFO - https://stopgame.ru/review/p207: 18 статей -> 13 обзоров
+2026-04-17 10:01:29 - StopGameParser - INFO - Собрано 13 обзоров, всего 3604
+2026-04-17 10:01:30 - StopGameParser - INFO - Страница 208/234
+2026-04-17 10:01:30 - StopGameParser - INFO - https://stopgame.ru/review/p208: 18 статей -> 15 обзоров
+2026-04-17 10:01:30 - StopGameParser - INFO - Собрано 15 обзоров, всего 3619
+2026-04-17 10:01:31 - StopGameParser - INFO - Страница 209/234
+2026-04-17 10:01:31 - StopGameParser - INFO - https://stopgame.ru/review/p209: 18 статей -> 16 обзоров
+2026-04-17 10:01:31 - StopGameParser - INFO - Собрано 16 обзоров, всего 3635
+2026-04-17 10:01:32 - StopGameParser - INFO - Страница 210/234
+2026-04-17 10:01:32 - StopGameParser - INFO - https://stopgame.ru/review/p210: 18 статей -> 16 обзоров
+2026-04-17 10:01:32 - StopGameParser - INFO - Собрано 16 обзоров, всего 3651
+2026-04-17 10:01:33 - StopGameParser - INFO - Страница 211/234
+2026-04-17 10:01:33 - StopGameParser - INFO - https://stopgame.ru/review/p211: 18 статей -> 15 обзоров
+2026-04-17 10:01:33 - StopGameParser - INFO - Собрано 15 обзоров, всего 3666
+2026-04-17 10:01:34 - StopGameParser - INFO - Страница 212/234
+2026-04-17 10:01:34 - StopGameParser - INFO - https://stopgame.ru/review/p212: 18 статей -> 12 обзоров
+2026-04-17 10:01:34 - StopGameParser - INFO - Собрано 12 обзоров, всего 3678
+2026-04-17 10:01:35 - StopGameParser - INFO - Страница 213/234
+2026-04-17 10:01:35 - StopGameParser - INFO - https://stopgame.ru/review/p213: 18 статей -> 11 обзоров
+2026-04-17 10:01:35 - StopGameParser - INFO - Собрано 11 обзоров, всего 3689
+2026-04-17 10:01:36 - StopGameParser - INFO - Страница 214/234
+2026-04-17 10:01:36 - StopGameParser - INFO - https://stopgame.ru/review/p214: 18 статей -> 11 обзоров
+2026-04-17 10:01:37 - StopGameParser - INFO - Собрано 11 обзоров, всего 3700
+2026-04-17 10:01:38 - StopGameParser - INFO - Страница 215/234
+2026-04-17 10:01:38 - StopGameParser - INFO - https://stopgame.ru/review/p215: 18 статей -> 13 обзоров
+2026-04-17 10:01:38 - StopGameParser - INFO - Собрано 13 обзоров, всего 3713
+2026-04-17 10:01:39 - StopGameParser - INFO - Страница 216/234
+2026-04-17 10:01:39 - StopGameParser - INFO - https://stopgame.ru/review/p216: 18 статей -> 10 обзоров
+2026-04-17 10:01:39 - StopGameParser - INFO - Собрано 10 обзоров, всего 3723
+2026-04-17 10:01:40 - StopGameParser - INFO - Страница 217/234
+2026-04-17 10:01:40 - StopGameParser - INFO - https://stopgame.ru/review/p217: 18 статей -> 10 обзоров
+2026-04-17 10:01:40 - StopGameParser - INFO - Собрано 10 обзоров, всего 3733
+2026-04-17 10:01:41 - StopGameParser - INFO - Страница 218/234
+2026-04-17 10:01:41 - StopGameParser - INFO - https://stopgame.ru/review/p218: 18 статей -> 13 обзоров
+2026-04-17 10:01:41 - StopGameParser - INFO - Собрано 13 обзоров, всего 3746
+2026-04-17 10:01:42 - StopGameParser - INFO - Страница 219/234
+2026-04-17 10:01:42 - StopGameParser - INFO - https://stopgame.ru/review/p219: 18 статей -> 15 обзоров
+2026-04-17 10:01:42 - StopGameParser - INFO - Собрано 15 обзоров, всего 3761
+2026-04-17 10:01:43 - StopGameParser - INFO - Страница 220/234
+2026-04-17 10:01:43 - StopGameParser - INFO - https://stopgame.ru/review/p220: 18 статей -> 15 обзоров
+2026-04-17 10:01:43 - StopGameParser - INFO - Собрано 15 обзоров, всего 3776
+2026-04-17 10:01:44 - StopGameParser - INFO - Страница 221/234
+2026-04-17 10:01:44 - StopGameParser - INFO - https://stopgame.ru/review/p221: 18 статей -> 6 обзоров
+2026-04-17 10:01:44 - StopGameParser - INFO - Собрано 6 обзоров, всего 3782
+2026-04-17 10:01:45 - StopGameParser - INFO - Страница 222/234
+2026-04-17 10:01:45 - StopGameParser - INFO - https://stopgame.ru/review/p222: 18 статей -> 10 обзоров
+2026-04-17 10:01:45 - StopGameParser - INFO - Собрано 10 обзоров, всего 3792
+2026-04-17 10:01:46 - StopGameParser - INFO - Страница 223/234
+2026-04-17 10:01:46 - StopGameParser - INFO - https://stopgame.ru/review/p223: 18 статей -> 9 обзоров
+2026-04-17 10:01:46 - StopGameParser - INFO - Собрано 9 обзоров, всего 3801
+2026-04-17 10:01:47 - StopGameParser - INFO - Страница 224/234
+2026-04-17 10:01:47 - StopGameParser - INFO - https://stopgame.ru/review/p224: 18 статей -> 9 обзоров
+2026-04-17 10:01:47 - StopGameParser - INFO - Собрано 9 обзоров, всего 3810
+2026-04-17 10:01:48 - StopGameParser - INFO - Страница 225/234
+2026-04-17 10:01:48 - StopGameParser - INFO - https://stopgame.ru/review/p225: 18 статей -> 15 обзоров
+2026-04-17 10:01:48 - StopGameParser - INFO - Собрано 15 обзоров, всего 3825
+2026-04-17 10:01:49 - StopGameParser - INFO - Страница 226/234
+2026-04-17 10:01:49 - StopGameParser - INFO - https://stopgame.ru/review/p226: 18 статей -> 14 обзоров
+2026-04-17 10:01:49 - StopGameParser - INFO - Собрано 14 обзоров, всего 3839
+2026-04-17 10:01:50 - StopGameParser - INFO - Страница 227/234
+2026-04-17 10:01:50 - StopGameParser - INFO - https://stopgame.ru/review/p227: 18 статей -> 17 обзоров
+2026-04-17 10:01:51 - StopGameParser - INFO - Собрано 17 обзоров, всего 3856
+2026-04-17 10:01:52 - StopGameParser - INFO - Страница 228/234
+2026-04-17 10:01:52 - StopGameParser - INFO - https://stopgame.ru/review/p228: 18 статей -> 15 обзоров
+2026-04-17 10:01:52 - StopGameParser - INFO - Собрано 15 обзоров, всего 3871
+2026-04-17 10:01:53 - StopGameParser - INFO - Страница 229/234
+2026-04-17 10:01:53 - StopGameParser - INFO - https://stopgame.ru/review/p229: 18 статей -> 8 обзоров
+2026-04-17 10:01:53 - StopGameParser - INFO - Собрано 8 обзоров, всего 3879
+2026-04-17 10:01:54 - StopGameParser - INFO - Страница 230/234
+2026-04-17 10:01:54 - StopGameParser - INFO - https://stopgame.ru/review/p230: 18 статей -> 10 обзоров
+2026-04-17 10:01:54 - StopGameParser - INFO - Собрано 10 обзоров, всего 3889
+2026-04-17 10:01:55 - StopGameParser - INFO - Страница 231/234
+2026-04-17 10:01:55 - StopGameParser - INFO - https://stopgame.ru/review/p231: 18 статей -> 14 обзоров
+2026-04-17 10:01:55 - StopGameParser - INFO - Собрано 14 обзоров, всего 3903
+2026-04-17 10:01:56 - StopGameParser - INFO - Страница 232/234
+2026-04-17 10:01:56 - StopGameParser - INFO - https://stopgame.ru/review/p232: 18 статей -> 17 обзоров
+2026-04-17 10:01:56 - StopGameParser - INFO - Собрано 17 обзоров, всего 3920
+2026-04-17 10:01:57 - StopGameParser - INFO - Страница 233/234
+2026-04-17 10:01:57 - StopGameParser - INFO - https://stopgame.ru/review/p233: 18 статей -> 11 обзоров
+2026-04-17 10:01:57 - StopGameParser - INFO - Собрано 11 обзоров, всего 3931
+2026-04-17 10:01:58 - StopGameParser - INFO - Страница 234/234
+2026-04-17 10:01:58 - StopGameParser - INFO - https://stopgame.ru/review/p234: 16 статей -> 8 обзоров
+2026-04-17 10:01:58 - StopGameParser - INFO - Собрано 8 обзоров, всего 3939
+2026-04-17 10:01:58 - StopGameParser - INFO - Прогресс очищен
+2026-04-17 10:01:58 - StopGameParser - INFO - Завершено за 246.98 сек, собрано 3957 обзоров
+2026-04-17 10:01:58 - StopGameParser - INFO - JSON сохранён: output\reviews.json (3957 обзоров)
+2026-04-17 10:01:58 - StopGameParser - INFO - CSV сохранён: output\reviews.csv (3957 обзоров)
+2026-04-17 10:01:58 - StopGameParser - INFO - HTML отчёт сохранён: output\reports.html
