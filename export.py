@@ -9,8 +9,6 @@ from config import Config
 
 
 class JsonExporter:
-    """Экспорт в JSON"""
-    
     def __init__(self, config: Config, logger):
         self.config = config
         self.logger = logger
@@ -26,8 +24,6 @@ class JsonExporter:
 
 
 class CsvExporter:
-    """Экспорт в CSV"""
-    
     def __init__(self, config: Config, logger):
         self.config = config
         self.logger = logger
@@ -37,7 +33,7 @@ class CsvExporter:
             return
         
         path = Path(self.config.output_dir) / filename
-        fields = ['title', 'author', 'date', 'comments', 'rating', 'link', 'image', 'description']
+        fields = ['title', 'author', 'date', 'link', 'image']
         
         with open(path, 'w', newline='', encoding='utf-8-sig') as f:
             writer = csv.DictWriter(f, fieldnames=fields)
@@ -49,8 +45,6 @@ class CsvExporter:
 
 
 class HtmlExporter:
-    """Экспорт в HTML"""
-    
     def __init__(self, config: Config, logger):
         self.config = config
         self.logger = logger
@@ -66,13 +60,9 @@ class HtmlExporter:
         self.logger.info(f"HTML отчёт сохранён: {path}")
     
     def _generate_html(self, reviews: List[Review]) -> str:
-        """Генерирует HTML код отчёта"""
-        # Статистика
         total = len(reviews)
         authors = len(set(r.author for r in reviews))
-        total_comments = sum(r.comments for r in reviews)
         
-        # Генерация строк таблицы
         rows = ""
         for r in reviews[:100]:
             rows += f"""
@@ -80,8 +70,6 @@ class HtmlExporter:
                 <td><a href="{r.link}">{r.title[:60]}</a></td>
                 <td>{r.author}</td>
                 <td>{r.date}</td>
-                <td class="comment">{r.comments}</td>
-                <td>{r.rating}</td>
             </tr>"""
         
         return f"""<!DOCTYPE html>
@@ -97,7 +85,6 @@ class HtmlExporter:
         th, td {{ border: 1px solid #ddd; padding: 8px; text-align: left; }}
         th {{ background-color: #4CAF50; color: white; }}
         tr:nth-child(even) {{ background-color: #f2f2f2; }}
-        .comment {{ color: #666; font-size: 0.9em; }}
     </style>
 </head>
 <body>
@@ -105,12 +92,11 @@ class HtmlExporter:
     <div class="stats">
         <p><strong>Всего обзоров:</strong> {total}</p>
         <p><strong>Уникальных авторов:</strong> {authors}</p>
-        <p><strong>Всего комментариев:</strong> {total_comments}</p>
         <p><strong>Дата генерации:</strong> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
     </div>
     <table>
         <thead>
-            <tr><th>Название</th><th>Автор</th><th>Дата</th><th>Комментарии</th><th>Рейтинг</th></tr>
+            <tr><th>Название</th><th>Автор</th><th>Дата</th></tr>
         </thead>
         <tbody>{rows}</tbody>
     </table>

@@ -1,85 +1,97 @@
 import re
 from datetime import datetime, timedelta
-from typing import Optional
 
 
 class TextUtils:
-    """Утилиты для обработки текста"""
-    
     @staticmethod
     def clean(text: str) -> str:
-        """Очищает текст от лишних пробелов"""
         if not text:
             return ""
         return re.sub(r'\s+', ' ', text).strip()
     
     @staticmethod
     def extract_comments(text: str) -> int:
-        """Извлекает количество комментариев"""
-        nums = re.findall(r'\d+', text)
-        return int(nums[0]) if nums else 0
+        """Извлекает количество комментариев из текста"""
+        if not text:
+            return 0
+        
+        patterns = [
+            r'(\d+)\s*(?:коммент|комментариев|комментария|отзывов|отзыва|ответов|ответа)',
+            r'(?:коммент|комментариев|комментария|отзывов|отзыва|ответов|ответа)\s*(\d+)',
+            r'(\d+)\s*💬',
+            r'💬\s*(\d+)',
+            r'(\d+)\s*✉',
+            r'✉\s*(\d+)'
+        ]
+        
+        for pattern in patterns:
+            match = re.search(pattern, text, re.I)
+            if match:
+                return int(match.group(1))
+        
+        match = re.search(r'\((\d+)\)', text)
+        if match:
+            return int(match.group(1))
+        
+        return 0
 
 
 class DateUtils:
-    """Утилиты для обработки дат"""
-    
-    # Месяцы для парсинга
-    MONTHS_RU = 'января|февраля|марта|апреля|мая|июня|июля|августа|сентября|октября|ноября|декабря'
+    MONTHS_RU = {
+        'января': 1, 'февраля': 2, 'марта': 3, 'апреля': 4,
+        'мая': 5, 'июня': 6, 'июля': 7, 'августа': 8,
+        'сентября': 9, 'октября': 10, 'ноября': 11, 'декабря': 12
+    }
     
     @classmethod
-    def parse(cls, text: str) -> str:
-        """Извлекает дату из текста"""
+    def parse(cls, text: str, url: str = "") -> str:
+        if not text and not url:
+            return "Дата не указана"
+        
         now = datetime.now()
         
-        # Относительные даты
-        if 'сегодня' in text.lower():
-            return now.strftime('%d %B %Y')
-        if 'вчера' in text.lower():
-            return (now - timedelta(days=1)).strftime('%d %B %Y')
+        if url:
+            match = re.search(r'/articles/(\d{4})/(\d{2})/(\d{2})/', url)
+            if match:
+                year = int(match.group(1))
+                month = int(match.group(2))
+                day = int(match.group(3))
+                return f"{day:02d}.{month:02d}.{year}"
         
-        # Формат: "25 ноября 2025"
-        match = re.search(rf'(\d{{1,2}})\s+({cls.MONTHS_RU})\s+(\d{{4}})', text, re.I)
+        if not text:
+            return "Дата не указана"
+        
+        text_lower = text.lower()
+        
+        if 'сегодня' in text_lower:
+            return now.strftime('%d.%m.%Y')
+        if 'вчера' in text_lower:
+            return (now - timedelta(days=1)).strftime('%d.%m.%Y')
+        
+        pattern = r'(\d{1,2})\s+(января|февраля|марта|апреля|мая|июня|июля|августа|сентября|октября|ноября|декабря)\s+(\d{4})'
+        match = re.search(pattern, text, re.I)
         if match:
-            return f"{match.group(1)} {match.group(2)} {match.group(3)}"
+            day = int(match.group(1))
+            month = cls.MONTHS_RU.get(match.group(2).lower(), 1)
+            year = int(match.group(3))
+            return f"{day:02d}.{month:02d}.{year}"
         
-        # Формат: "25.11.2025"
         match = re.search(r'(\d{2})\.(\d{2})\.(\d{4})', text)
         if match:
-            return f"{match.group(1)}.{match.group(2)}.{match.group(3)}"
+            day, month, year = int(match.group(1)), int(match.group(2)), int(match.group(3))
+            return f"{day:02d}.{month:02d}.{year}"
         
-        # Формат: "2025-11-25"
         match = re.search(r'(\d{4})-(\d{2})-(\d{2})', text)
         if match:
-            return f"{match.group(3)}.{match.group(2)}.{match.group(1)}"
+            year, month, day = int(match.group(1)), int(match.group(2)), int(match.group(3))
+            return f"{day:02d}.{month:02d}.{year}"
         
         return "Дата не указана"
 
 
-class RatingUtils:
-    """Утилиты для обработки рейтингов"""
-    
-    @staticmethod
-    def extract(text: str) -> str:
-        """Извлекает рейтинг обзора"""
-        # Формат: "8.5/10" или "8/10"
-        match = re.search(r'(\d+(?:\.\d+)?)\s*(?:/|из)\s*(\d+)', text, re.I)
-        if match:
-            return f"{match.group(1)}/{match.group(2)}"
-        
-        # Формат: "8.5★" или "9★"
-        match = re.search(r'(\d+(?:\.\d+)?)\s*★', text)
-        if match:
-            return f"{match.group(1)}★"
-        
-        return ""
-
-
 class UrlUtils:
-    """Утилиты для обработки URL"""
-    
     @staticmethod
     def normalize(url: str, base_url: str) -> str:
-        """Нормализует URL (добавляет https, base_url)"""
         if not url:
             return ""
         

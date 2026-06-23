@@ -3,67 +3,64 @@ from typing import List, Optional
 from bs4 import BeautifulSoup
 
 from models import Review, ReviewStatus
-from utils import TextUtils, DateUtils, RatingUtils, UrlUtils
+from utils import TextUtils, DateUtils, UrlUtils
 from config import Config
 
 
 class ReviewParser:
-    """Парсер карточек обзоров"""
-    
     def __init__(self, config: Config, logger):
         self.config = config
         self.logger = logger
     
     def parse_page(self, soup: BeautifulSoup, url: str) -> List[Review]:
-        """Парсит страницу и возвращает список обзоров"""
-        articles = soup.find_all('article')
+        articles = soup.find_all('article') or soup.find_all('div', class_=re.compile(r'article|review|item', re.I))
         reviews = []
         
         for article in articles:
             review = self._extract_review(article)
-            if review:
+            if review and review.title:
                 reviews.append(review)
         
-        self.logger.info(f"{url}: {len(articles)} статей -> {len(reviews)} обзоров")
+        self.logger.info(f"{url}: найдено {len(reviews)} обзоров")
         return reviews
     
     def _extract_review(self, article) -> Optional[Review]:
-        """Извлекает данные из одной карточки обзора"""
         try:
-            links = article.find_all('a', href=True)
-            if len(links) < 4:
-                return None
-            
             review = Review()
             
-            # Заголовок и ссылка (3-я ссылка)
-            title_link = links[2]
-            review.title = TextUtils.clean(title_link.get_text())
-            href = title_link.get('href', '')
-            if not review.title or not href:
+            title_elem = article.find('h2') or article.find('h3') or article.find('a', class_=re.compile(r'title|name', re.I))
+            if title_elem:
+                review.title = TextUtils.clean(title_elem.get_text())
+                link_elem = title_elem if title_elem.name == 'a' else title_elem.find('a')
+                if link_elem and link_elem.get('href'):
+                    review.link = UrlUtils.normalize(link_elem.get('href'), self.config.base_url)
+            
+            if not review.title:
                 return None
-            review.link = UrlUtils.normalize(href, self.config.base_url)
             
-            # Автор (2-я ссылка)
-            review.author = TextUtils.clean(links[1].get_text())
+            author_elem = article.find('a', class_=re.compile(r'author|user|nick', re.I))
+            if author_elem:
+                review.author = TextUtils.clean(author_elem.get_text())
+            else:
+                text = article.get_text()
+                match = re.search(r'(?:автор|от)\s*[:]?\s*([^\n,]+)', text, re.I)
+                if match:
+                    review.author = TextUtils.clean(match.group(1))
             
-            # Комментарии (4-я ссылка)
-            review.comments = TextUtils.extract_comments(links[3].get_text())
+            date_elem = article.find('time') or article.find('span', class_=re.compile(r'date|time', re.I))
+            if date_elem:
+                date_text = date_elem.get_text()
+            else:
+                date_text = article.get_text()
+            review.date = DateUtils.parse(date_text, review.link)
             
-            # Дата
-            review.date = DateUtils.parse(article.get_text())
+            review.comments = 0
             
-            # Изображение
-            review.image = self._extract_image(article)
-            
-            # Описание
-            review.description = self._extract_description(article, links)
-            
-            # Рейтинг
-            review.rating = RatingUtils.extract(article.get_text())
-            
-            # Теги
-            review.tags = self._extract_tags(article)
+            img = article.find('img')
+            if img:
+                img_url = img.get('src') or img.get('data-src')
+                if img_url:
+                    review.image = UrlUtils.normalize(img_url, self.config.base_url)
             
             review.status = ReviewStatus.SUCCESS
             return review
@@ -72,49 +69,9 @@ class ReviewParser:
             self.logger.debug(f"Ошибка извлечения: {e}")
             return None
     
-    def _extract_image(self, article) -> str:
-        """Извлекает URL изображения"""
-        img = article.find('img')
-        if not img:
-            return ""
-        
-        img_url = img.get('src') or img.get('data-src')
-        return UrlUtils.normalize(img_url, self.config.base_url)
-    
-    def _extract_description(self, article, links) -> str:
-        """Извлекает краткое описание"""
-        article_text = article.get_text()
-        
-        # Удаляем текст всех ссылок
-        for link in links:
-            article_text = article_text.replace(link.get_text(), '')
-        
-        # Ищем первый осмысленный абзац
-        lines = [l.strip() for l in article_text.split('\n') if l.strip()]
-        for line in lines:
-            if len(line) > 30 and not re.match(r'^\d+$', line):
-                return line[:200]
-        
-        return ""
-    
-    def _extract_tags(self, article) -> List[str]:
-        """Извлекает теги/категории"""
-        tags = []
-        tags_container = article.find('div', class_=re.compile(r'tags|category', re.I))
-        
-        if tags_container:
-            for tag in tags_container.find_all('a'):
-                tag_text = TextUtils.clean(tag.get_text())
-                if tag_text:
-                    tags.append(tag_text)
-        
-        return tags
-    
     def get_total_pages(self, soup: BeautifulSoup) -> int:
-        """Определяет общее количество страниц"""
         try:
-            # Поиск по пагинации
-            pagination = soup.find('div', class_=re.compile(r'pagination', re.I))
+            pagination = soup.find('div', class_=re.compile(r'pagination|pages|nav', re.I))
             if pagination:
                 numbers = []
                 for link in pagination.find_all('a'):
@@ -124,11 +81,12 @@ class ReviewParser:
                 if numbers:
                     return max(numbers)
             
-            # Поиск по URL
-            for link in soup.find_all('a', href=re.compile(r'/review/p\d+')):
+            for link in soup.find_all('a', href=re.compile(r'/review/p?\d+')):
                 match = re.search(r'/p(\d+)', link.get('href', ''))
                 if match:
-                    return int(match.group(1))
+                    page_num = int(match.group(1))
+                    if page_num > 1:
+                        return page_num
             
             return 1
         except Exception as e:
